@@ -10,7 +10,7 @@ export const Featured = () => {
 
   return (
     <div className={style.container}>
-     hello guys
+      <img src="/img/pizza.jpg" height="100%" width="100%" alt=""/>
     </div>
   );
 };
