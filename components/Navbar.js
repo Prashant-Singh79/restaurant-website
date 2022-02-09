@@ -7,10 +7,10 @@ const Navbar = () => {
      <div className={style.item}>Restaurant Name</div>
       <div className={style.item}>
         <ul className={style.list}>
-          <li className={style.listItem}>Home</li>
-          <li className={style.listItem}>Menu</li>
-          <li className={style.listItem}>About</li>
-          <li className={style.listItem}>Contact</li>
+          <a href="#home" className={style.listItem}>Home</a>
+          <a href="#menu" className={style.listItem}>Menu</a>
+          <a href="#about" className={style.listItem}>About</a>
+          <a href="#contact" className={style.listItem}>Contact</a>
         </ul>
       </div>
       
